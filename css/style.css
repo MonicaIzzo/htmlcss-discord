@@ -1,0 +1,197 @@
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+/* Custom PROPERTIES */
+:root {
+    --azzurro: #add8e6;
+    --orancione: #daa520;
+    --bluscuro: #00008b;
+    --blue: #1e90ff;
+    --rosa: #ffc0cb;
+    --verde: #228b22;
+    --rosso: #FF0000;
+    --acquamarina: #20b2aa;
+    --grigio: #dddcdc;
+
+    --space: 30px;
+    --space-60: 60px;
+}
+
+
+
+
+/* Generics */
+body {
+}
+
+
+
+/* Utilties */
+.cointainer {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex    {
+display: flex;
+    }
+
+.bg-color-grey
+ {
+    background-color: var(--grigio);
+}
+
+
+/* HEADER */
+.top-header {
+    background-color: var(--azzurro);
+    height: 100px;
+    padding: 25px 0;
+}
+
+.nav {
+    background-color: var(--orancione);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+
+}
+
+.sub-nav {
+    border: 2px dotted #FF0000;
+    height: 100%;
+}
+
+.sub1 {
+    width: 20%;
+}
+
+.sub2 {
+    width: 60%;
+}
+
+
+/* Jumbotron */
+#jumbotron {
+    height: 400px;
+    background-color: #00008b;
+    padding: var(--space)
+   
+}
+.jumbotron-txt {
+    background-color: #ffc0cb;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+main > .section {
+    height: 400px;
+}
+
+.coloumn {
+    padding: var(--space);
+    height: 100%;
+}
+
+.column-left{
+    border: 2px dotted red;
+    padding: var(--space);
+    background-color: var(--bluscuro);
+    width: 60%;
+    height: 100%;
+}
+
+.column-right {
+    border: 2px dotted red;
+    padding: var(--space);
+    background-color: var(--rosa);
+    width: 40%;
+    height: 100%;
+}
+
+.column-full {
+    border: 2px dotted red;
+    padding: var(--space);
+    background-color: var(--verde);
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+.section {
+    padding: var(--space-60) 0px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    height: 400px;
+}
+.footer-top  {
+    width: 100%;
+    border-bottom: #add8e6 solid 2px;
+    color: white;
+    padding: var(--space);
+ }
+ .footer-bottom {
+    width: 100%;
+    color: white;
+    padding: var(--space);
+ }
+
+  .footer-coloumn-full {
+    background-color: #1e90ff;
+    color: white;
+    padding: var(--space) 0;
+    width: 1140px;
+    margin: 0 auto;
+    height: 100px;
+  }
+#logo {
+    width: 200px;
+    height: 100%;
+    background-color: var(--rosa);
+    padding: 10px;
+  }
+.button {
+    width: 200px;
+    height: 100%;
+    background-color: var(--rosa);
+    padding: 10px;
+
+}
+.footer-bottom-content {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+}
+.footer-top-coloumn-left  {
+    background-color: var(--rosa);
+    width: 30%;
+    height: 100%;
+ }
+
+.footer-top-coloumn-right {
+    background-color: var(--acquamarina);
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+.footer-top-row {
+    height: 200px;
+}
+.footer-top-coloumn {
+        border: white dotted 1px;
+        width: 100%;
+    }
