@@ -25,7 +25,8 @@ box-sizing: border-box;
 
 
 /* Generics */
-body {
+body{
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
