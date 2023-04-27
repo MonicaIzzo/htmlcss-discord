@@ -50,7 +50,6 @@ h1 {
 
 .flex    {
     display: flex;
-    align-items: stretch;
     }
 
 .bg-color-grey
@@ -106,16 +105,6 @@ header {
     font-weight: bold;
 }
 
-a {
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
-
 
 /* Jumbotron */
 #jumbotron {
@@ -123,11 +112,47 @@ a {
    
 }
 .jumbotron-txt {
-    height: 100%;
     margin: 0 auto;
     padding: 60px 220px;
+    min-height: 500;
 }
 
+.jumbotron-button {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.jumbotron-button * {
+    align-content: center;
+    display: flex;
+    align-self: center;
+}
+
+.on {
+    padding: 15px 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.on a {
+    color: #23272a;
+    text-decoration: none;
+}
+
+.off {
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #23272a;
+}
+
+.off a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* MAIN */
 main > .section {
     height: 400px;
