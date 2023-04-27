@@ -72,36 +72,37 @@ header {
 }
 
 .nav {
-    text-align: stretch;
     display: flex;
+    height: 100px;
 
 }
 
 .sub-nav {
-    border: 2px dotted #FF0000;
     align-items: stretch;
     flex-basis: calc(100% / 3);
+    align-self: center;
 }
 
 .sub-nav-logo, .sub-nav-login {
     flex-basis: 15%;
-    background-color: #000;
+    align-self: center;
 } 
 
 .sub-nav-menu {
     flex-basis: 70%;
-    background-color: #000;
+    align-self: center;
 } 
 
 .sub-nav ul {
     display: flex;
+    height: 100%;
+    justify-content: center;
     list-style-type: none;
 }
 
 .sub-nav ul li {
     padding: 0 10px;
     margin: 0 10px;
-    background-color: #00008b;
     font-weight: bold;
 }
 
