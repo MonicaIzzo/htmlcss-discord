@@ -8,6 +8,7 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Monica Izzo">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/c7ed230053.js" crossorigin="anonymous"></script>
     <title>Lezione #010 | HTML CSS Discord</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
             <nav>
                 <div class="nav cointainer">
                     <div class="sub-nav sub-nav-logo">
-                    <img id class="logo" src="img/logo.svg" alt="Logo Discord">
+                        <img id="logo" src="img/logo.svg" alt="Logo Discord">
                     </div>
                     <div class="sub-nav sub-nav-menu">
                         <ul>
@@ -27,15 +28,14 @@
                             <li>Sicurezza</li>
                             <li>Assistenza</li>
                      </ul>
-                </div>
-                <div class="sub-nav sub-nav-login">
-                    <div class="on">
-                    <a href="#">Accedi</a>
-                    </div>
-                </div>
+                     </div>
+                                    <div class="on">
+                                        <a href="#">Accedi</a>
+                                    </div></div>
+                
+        </div>
             </nav>
             </div>
-        </div>
             <!-- Jumbotron -->
             <div class id="jumbotron">
                 <div class="jumbotron-txt cointainer">
@@ -56,7 +56,7 @@
         <div class="section">
             <div class="cointainer flex row">
                 <div class="coloumn column-left">
-                    <img id class="coloumn-item" src="img/item1.svg" alt="item 01">
+                    <img id="coloumn-item" src="img/item1.svg" alt="item 01">
                 </div>
                  <div class="coloumn column-right">
                     <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
@@ -75,7 +75,7 @@
                     unirsi istantaneamente senza dover chiamare.</p>
                 </div>
                 <div class="coloumn column-left">
-                    <img id class="coloumn-item" src="img/item2.svg" alt="item 02">
+                    <img class="coloumn-item" src="img/item2.svg" alt="item 02">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
         <div class="section row">
             <div class="cointainer flex row">
                 <div class="coloumn column-left">
-                    <img id class="coloumn-item" src="img/item3.svg" alt="item 03">
+                    <img class="coloumn-item" src="img/item3.svg" alt="item 03">
                 </div>
                 <div class="coloumn column-right">
                     <h1>Da pochi a un fandom</h1>
@@ -100,10 +100,11 @@
                     <h1>Tecnologia affidabile per tenersi in contatto</h1>
                     <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video,
                     guarda gli amici giocare in streaming, o riunirvi in una sessione di disegno con la condivisione dello schermo.</p>
-                    <img id class="coloumn-item" src="img/item4-big.svg" alt="item 04">
+                    <img class="coloumn-item" src="img/item4-big.svg" alt="item 04">
                     <h1>Pronto a iniziare la tua avventura?</h1>
                     <div class="button-main">
-                        <div class="off-main"><a href="#">&#8595; Scarica per il Mac</a></div>
+                        <div class="off-main"><a href="#">&#8595; Scarica per il Mac</a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -119,14 +120,26 @@
                 <div class="footer-top-coloumn-left">
                     <h2>Il tuo posto per parlare</h2>
                     <div class="language">
-                        <img class="" src="img/ita.png" alt="Bandiera">
-                        <p class="txt-small">Italiano</p>
+                        <div class="language-img">
+                        <img src="img/ita.png" alt="Bandiera">
+                            </div>
+                        <div class="italiano">
+                            <p class="txt-small">&#9660; Italiano</p>
+                        </div>
                     </div>
                     <div class="social">
-                        <div class="icon-twitter icon"></div>
-                        <div class="icon-instagram  icon"></div>
-                        <div class="icon-facebook icon"></div>
-                        <div class="icon-youtube icon"></div>
+                        <div class="icon-twitter icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon-instagram  icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="icon-facebook icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="icon-youtube icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="footer-top-coloumn-right">
@@ -180,18 +193,24 @@
         </div>
 
     <!-- Footer Bottom-->
-            <div class="footer-bottom row">
+
+
+            <div class="footer-bottom">
                 <div class="footer-coloumn-full cointainer ">
                     <div class="footer-bottom-content">
-                    <div class id="logo">
-                        <img id class="logo" src="img/logo.svg" alt="Logo Discord"></div>
-                        <div class="button"><a href="#">Registati</a></div>
+                        <div class="logo">
+                          <img class="logo" src="img/logo.svg" alt="Logo Discord">
+                        </div>
+                             <div class="off-main"><a href="#">Registrati</a>
+                             </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
         
     </footer>
+
 
 </body>
 </html>

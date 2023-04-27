@@ -134,6 +134,8 @@ header {
     background-color: #fff;
     border-radius: 30px;
     font-weight: bold;
+    height: 50px;
+    align-self: center;
 }
 
 .on a {
@@ -239,23 +241,21 @@ line-height: 1.6;
 
 /* FOOTER */
 footer {
-    background-color: #000;
-    height: 400px;
+    background-color: #23272a;
+    height: 500px;
 }
 .footer-top  {
-    border-bottom: #add8e6 solid 2px;
+    border-bottom: #8ea1e1 solid 1px;
     color: white;
     padding: var(--space-30);
  }
  .footer-bottom {
-    color: white;
-    padding: var(--space-30);
+    background-color: #23272a;
+    height: 100px;
  }
 
   .footer-coloumn-full {
-    background-color: #1e90ff;
     color: white;
-    padding: var(--space-30) 0;
     margin: 0 auto;
   }
 #logo {
@@ -273,26 +273,25 @@ footer {
         display: flex;
         justify-content: space-between;
         text-align: center;
-        width: 100%;
+        align-content: center;
 }
 .footer-top-coloumn-left  {
-    background-color: var(--rosa);
-    flex-basis: 25%;
-    height: 100%;
+    flex-basis: 20%;
+    padding-top: 15px;
  }
 
 .footer-top-coloumn-right {
-    background-color: var(--acquamarina);
-    flex-basis: 70%;
+    flex-basis: 80%;
     height: 100%;
     display: flex;
+    padding: 15px;
+    height: 100%;
 }
 
 .footer-top-row {
-    height: 200px;
+    height: 100%;
 }
 .footer-top-coloumn {
-        border: white dotted 1px;
         width: 100%;
     }
 .txt-small  {
@@ -300,13 +299,48 @@ footer {
     }
 .icon  {
         width: 50px;
-        height: 50px;
-        background-color: red;
     } 
     
 .social  {
         display: flex;
     }    
 .language  {
-        display: flex
-    }        
+        display: flex;
+        height: 30px;
+        margin: 10px 0;
+        
+    }   
+    
+.footer-top-coloumn ul {
+    list-style-type: none;
+}
+.footer-top-coloumn ul li {
+    margin: 8px 0;
+    font-weight: bold;
+}
+.language-img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.italiano {
+}
+
+.language img  {
+    width: 100%;
+    
+}
+
+div.footer-top-coloumn:nth-child(1) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(2) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(3) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(4) > ul:nth-child(1) > li:nth-child(1) {
+color: #8ea1e1;
+}
+.logo {
+    width: 130px;
+    padding: 5px 0px;
+    align-items: baseline;
+}
+.fa-brands,
+.fab {
+    font-weight: 400;
+    font-size: xx-large;
+}
