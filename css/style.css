@@ -39,7 +39,6 @@ h1 {
   
   font-size: 50px;
   font-weight: 600;
-
 }
 
 /* Utilties */
@@ -156,7 +155,7 @@ header {
 }
 /* MAIN */
 main > .section {
-    height: 400px;
+    padding: 60px 0px;
 }
 
 .coloumn {
@@ -165,42 +164,62 @@ main > .section {
 }
 
 .column-left{
-    border: 2px dotted red;
     padding: 30px;
-    background-color: var(--bluscuro);
     flex-basis: 65%;
+    color: #23272a;
 
 }
 
 .column-right {
-    border: 2px dotted red;
     padding: 30px;
-    background-color: var(--rosa);
     flex-basis: 35%;
 }
 
 .column-full {
-    border: 2px dotted red;
     padding: 30px;
-    background-color: var(--verde);
     width: 100%;
     text-align: center;
 }
 
+img.coloumn-item {
+    width: 100%;
+}
 
+.column-full > h1:nth-child(4) {
+    padding: 50px 0;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: auto;
+}
+
+.button-main {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.off-main {
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #8ea1e1;
+}
+
+.off-main a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .row {
-    height: 400px;
+    align-self: center;
     
 }
 
 .section {
     margin: var(--space-30) 0;
 
-}
-
-.section * img {
-height: 340px;
 }
 
 .column-full * img{
