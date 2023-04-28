@@ -114,7 +114,7 @@ header {
 .jumbotron-txt {
     margin: 0 auto;
     padding: 60px 220px;
-    min-height: 500;
+    min-height: 500px;
 }
 
 .jumbotron-button {
