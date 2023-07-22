@@ -22,9 +22,6 @@ box-sizing: border-box;
     --space-60: 60px;
 }
 
-
-
-
 /* Generics */
 body{
   font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -56,7 +53,6 @@ h1 {
     background-color: var(--grigio);
 }
 
-
 /* HEADER */
 header {
     background-image: url("../img/jumbo.png");
@@ -64,8 +60,8 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-
 }
+
 .top-header {
     padding: 30px 0;
 }
@@ -73,7 +69,6 @@ header {
 .nav {
     display: flex;
     height: 100px;
-
 }
 
 .sub-nav {
@@ -105,12 +100,11 @@ header {
     font-weight: bold;
 }
 
-
 /* Jumbotron */
 #jumbotron {
     padding: var(--space-30)
-   
 }
+
 .jumbotron-txt {
     margin: 0 auto;
     padding: 60px 220px;
@@ -122,6 +116,7 @@ header {
     height: 100px;
     justify-content: center;
 }
+
 .jumbotron-button * {
     align-content: center;
     display: flex;
@@ -160,16 +155,10 @@ main > .section {
     padding: 60px 0px;
 }
 
-.coloumn {
-
-    
-}
-
 .column-left{
     padding: 30px;
     flex-basis: 65%;
     color: #23272a;
-
 }
 
 .column-right {
@@ -216,23 +205,21 @@ img.coloumn-item {
 
 .row {
     align-self: center;
-    
 }
 
 .section {
     margin: var(--space-30) 0;
-
 }
 
 .column-full * img{
     width: 1000px;
-
 }
 
 .section * h1 {
 font-size: 40px;
 padding-bottom: var(--space-15);
 }
+
 .section * p {
 font-size: 16px;
 font-weight: normal;
@@ -244,11 +231,13 @@ footer {
     background-color: #23272a;
     height: 500px;
 }
+
 .footer-top  {
     border-bottom: #8ea1e1 solid 1px;
     color: white;
     padding: var(--space-30);
  }
+
  .footer-bottom {
     background-color: #23272a;
     height: 100px;
@@ -258,23 +247,27 @@ footer {
     color: white;
     margin: 0 auto;
   }
+
 #logo {
     width: 200px;
     height: 100%;
     padding: 10px;
   }
+
 .button {
     width: 200px;
     height: 100%;
     padding: 10px;
 
 }
+
 .footer-bottom-content {
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        align-content: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
 }
+
 .footer-top-coloumn-left  {
     flex-basis: 20%;
     padding-top: 15px;
@@ -291,54 +284,58 @@ footer {
 .footer-top-row {
     height: 100%;
 }
+
 .footer-top-coloumn {
-        width: 100%;
-    }
+    width: 100%;
+}
+
 .txt-small  {
-        font-size: 12px;
-    }
+    font-size: 12px;
+}
+
 .icon  {
-        width: 50px;
-    } 
-    
+    width: 50px;
+} 
+
 .social  {
-        display: flex;
-    }    
+    display: flex;
+}    
+
 .language  {
-        display: flex;
-        height: 30px;
-        margin: 10px 0;
+    display: flex;
+    height: 30px;
+    margin: 10px 0;
         
     }   
     
 .footer-top-coloumn ul {
     list-style-type: none;
 }
+
 .footer-top-coloumn ul li {
     margin: 8px 0;
     font-weight: bold;
 }
+
 .language-img {
     width: 40px;
     margin-right: 10px;
 }
 
-.italiano {
-}
-
 .language img  {
-    width: 100%;
-    
+    width: 100%;    
 }
 
 div.footer-top-coloumn:nth-child(1) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(2) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(3) > ul:nth-child(1) > li:nth-child(1), div.footer-top-coloumn:nth-child(4) > ul:nth-child(1) > li:nth-child(1) {
 color: #8ea1e1;
 }
+
 .logo {
     width: 130px;
     padding: 5px 0px;
     align-items: baseline;
 }
+
 .fa-brands,
 .fab {
     font-weight: 400;
