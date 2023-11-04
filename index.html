@@ -19,20 +19,20 @@
     <header>
       <div class="top-header">
         <nav>
-          <div class="nav cointainer">
-            <div class="sub-nav sub-nav-logo">
-              <img id="logo" src="img/logo.svg" alt="Logo Discord" />
+          <div class="nav cointainer flex">
+            <div class="sub-nav-logo"><a href="#" alt="Logo Discord">
+              <img id="logo" src="img/logo.svg" alt="Logo Discord" /></a>
             </div>
             <div class="sub-nav sub-nav-menu">
-              <ul>
-                <li>Scarica</li>
-                <li>Perché Discorò</li>
-                <li>Nitro</li>
-                <li>Sicurezza</li>
-                <li>Assistenza</li>
+              <ul class="flex">
+                <li><a href="#" alt="Scarica">Scarica</a></li>
+                <li><a href="#" alt="Perché Discord">Perché Discord</a></li>
+                <li><a href="#" alt="Nitro">Nitro</a></li>
+                <li><a href="#" alt="Sicurezza">Sicurezza</a></li>
+                <li><a href="#" alt="Assistenza">Assistenza</a></li>
               </ul>
             </div>
-            <div class="on"><a href="#">Accedi</a></div>
+            <div><a href="#" class="btn btn-primary">Accedi</a></div>
           </div>
         </nav>
       </div>
@@ -46,9 +46,9 @@
             che vuole passare il tempo assieme, Discorò rende più facile
             chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
-          <div class="jumbotron-button">
-            <div class="on"><a href="#">&#8595; Scarica per il Mac</a></div>
-            <div class="off"><a href="#">Apri Discord nel tuo browser</a></div>
+          <div class="flex">
+            <div><a href="#" class="btn btn-primary">&#8595; Scarica per il Mac</a></div>
+            <div><a href="#" class="btn btn-secondary">Apri Discord nel tuo browser</a></div>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
     <main>
       <!-- sezione 01 -->
       <div class="section">
-        <div class="cointainer flex row">
+        <div class="cointainer row flex">
           <div class="coloumn column-left">
             <img id="coloumn-item" src="img/item1.svg" alt="item 01" />
           </div>
@@ -74,7 +74,14 @@
         </div>
       </div>
       <!-- sezione 02 -->
+      <svg class="wave-1hkxOo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
+        preserveAspectRatio="none">
+        <path class="wavePath-haxJK1 animationPaused-2hZ4IO"
+          d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
+          fill="currentColor"></path>
+      </svg>
       <div class="bg-color-grey section">
+       
         <div class="cointainer flex row">
           <div class="coloumn column-right">
             <h1>Dove trovarsi è facile</h1>
@@ -89,6 +96,12 @@
           </div>
         </div>
       </div>
+      <svg class="wave-1hkxOo-up" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
+        preserveAspectRatio="none">
+        <path class="wavePath-haxJK1 animationPaused-2hZ4IO"
+          d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
+          fill="currentColor"></path>
+      </svg>
       <!-- sezione 03 -->
       <div class="section row">
         <div class="cointainer flex row">
@@ -105,9 +118,14 @@
           </div>
         </div>
       </div>
-      <!-- sezione 04 -->
-      <div class="bg-color-grey section row">
-        <div class="cointainer flex row">
+      <!-- sezione 04 --><svg class="wave-1hkxOo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
+        preserveAspectRatio="none">
+        <path class="wavePath-haxJK1 animationPaused-2hZ4IO"
+          d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
+          fill="currentColor"></path>
+      </svg>
+      <div class="bg-color-grey flex">
+        <div class="cointainer row section">
           <div class="column-full">
             <h1>Tecnologia affidabile per tenersi in contatto</h1>
             <p>
@@ -118,19 +136,17 @@
             </p>
             <img class="coloumn-item" src="img/item4-big.svg" alt="item 04" />
             <h1>Pronto a iniziare la tua avventura?</h1>
-            <div class="button-main">
-              <div class="off-main">
-                <a href="#">&#8595; Scarica per il Mac</a>
+            <div>
+              <div >
+                <a href="#" class="btn-main btn">&#8595; Scarica per il Mac</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-
     <!-- Footer -->
     <footer>
-      <div>
         <!-- Footer Top -->
         <div class="footer-top row">
           <div class="footer-top-row cointainer flex">
@@ -162,7 +178,7 @@
             <div class="footer-top-coloumn-right">
               <div class="footer-top-coloumn">
                 <ul>
-                  <li>Prodotto</li>
+                  <li><strong>Prodotto</strong></li>
                   <li>Scarica</li>
                   <li>Perché Discord</li>
                   <li>Nitro</li>
@@ -172,7 +188,7 @@
               </div>
               <div class="footer-top-coloumn">
                 <ul>
-                  <li>Compagnia</li>
+                  <li><strong>Compagnia</strong></li>
                   <li>Lavora con noi</li>
                   <li>Marchio</li>
                   <li>Redazione</li>
@@ -181,7 +197,7 @@
               </div>
               <div class="footer-top-coloumn">
                 <ul>
-                  <li>Risorse</li>
+                  <li><strong>Risorse</strong></li>
                   <li>Scarica</li>
                   <li>Perché Discord</li>
                   <li>Nitro</li>
@@ -211,7 +227,7 @@
         <!-- Footer Bottom-->
         <div class="footer-bottom">
           <div class="footer-coloumn-full cointainer">
-            <div class="footer-bottom-content">
+            <div class="footer-bottom-content flex">
               <div class="logo">
                 <img class="logo" src="img/logo.svg" alt="Logo Discord" />
               </div>
@@ -219,7 +235,6 @@
             </div>
           </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>
