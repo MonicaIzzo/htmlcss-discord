@@ -19,6 +19,7 @@ box-sizing: border-box;
 /* Generics */
 body{
   font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 100px;
 }
 
 p {
@@ -96,17 +97,26 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    color: white;
-}
-
-.top-header {
-    padding: var(--space-30) 0;
+    background-color: #3560e2;
+    color: #fff;
 }
 
 .logo {
     width: 130px;
     padding: 5px 0px;
     vertical-align: text-bottom;
+}
+
+.top-header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    background-color: #3560e2;
 }
 
 .nav {
